@@ -27,7 +27,7 @@
               </div>
             </div>
           </div>
-          <div v-motion :initial="{ opacity:0, y:100,}":visibleOnce="{opacity:1, y:0,}" class="mt-8 pt-8 border-t border-gray-700 text-center">
+          <div v-motion-pop-visible-once class="mt-8 pt-8 border-t border-gray-700 text-center">
             <p>&copy; 2024 EpicTrails Travels. All rights reserved.</p>
           </div>
         </div>
